@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(18, 23, 117);
+  background-color: rgb(28, 14, 135);
 }
 .footer-items {
   margin: 0 47.5px;
@@ -7,15 +7,16 @@
 }
 .footer-top {
   margin-bottom: 30px;
+  display: flex;
+  cursor: pointer;
 }
-.footer-links {
-  columns: 3;
-}
+
 .footer ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 .footer ul li,
 .questions-title {
+    columns: 4;
   color: antiquewhite;
 }
