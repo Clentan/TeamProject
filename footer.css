@@ -19,4 +19,18 @@
 .questions-title {
     columns: 4;
   color: antiquewhite;
+  text-decoration: underline;
+}
+
+.map {
+  display: flex;
+  margin-left: 900px;
+}
+.social-icons {
+  color: white;
+  cursor: pointer;
+  margin-left: 350px;
+}
+.address {
+  color: white;
 }
