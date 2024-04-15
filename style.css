@@ -31,7 +31,7 @@ a {
   margin-left: 15px;
 }
 a:hover {
-  color: blue;
+  color: rgb(221, 221, 233);
 }
 
 /*styling div tag*/
@@ -154,7 +154,7 @@ footer {
   margin-bottom: 20px;
 }
 .child-staff i {
-  color: #142850;
+  color: #dde3ee;
   margin: 10px;
 }
 .child-staff dd {
