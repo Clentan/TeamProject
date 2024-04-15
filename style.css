@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #27496d;
+  text-align: center;
+}
+
+/*styling the header*/
+.name {
+  background-color: rgb(18, 23, 117);
+  background-attachment: fixed;
+  position: fixed;
+  background-position: 20;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+/*styling tags*/
+hr {
+  margin-top: 100px;
+}
+/*styling the anchor tags*/
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 15px;
+}
+a:hover {
+  color: blue;
+}
+
+/*styling div tag*/
+div {
+  overflow: hidden;
+}
+section {
+  margin: 5rem;
+}
+
+/*styling the cards*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+.main-container {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+
+.card-circle {
+  margin-top: 50px;
+  background: orangered;
+  border: 10px solid transparent;
+  color: #fff;
+  font-family: Montserrat;
+  padding: 50px;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.card-icon {
+  margin-bottom: 50px;
+}
+
+.card-circle .card-title {
+  margin: 30px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.card-circle .card-text {
+  font-weight: 550;
+  margin: 20px;
+}
+
+.card-circle:nth-child(2) {
+  background: #142850;
+}
+
+/*buttons*/
+.card-circle .btn {
+  font-family: Montserrat;
+  background: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+
+.card-circle .btn,
+.card-circle .card-icon i,
+.card-circle {
+  transition: all ease-in-out 0.2s;
+}
+
+.card-circle:hover .btn {
+  background: #00a8cc;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.card-circle .btn:hover {
+  transform: scale(1.1);
+}
+.card-circle:hover {
+  border: 10px solid #00a8cc;
+}
+.card-circle:hover i {
+  text-shadow: 0px -1px 10px #00a8cc;
+  transform: scale(1.2) rotate(20deg);
+}
+
+/*styling h tags*/
+h1 {
+  color: white;
+  margin-top: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*styling youtube i frame*/
+.youtube-vid {
+  margin-top: 0;
+}
+
+/*styling the footer*/
+
+.footer {
+  background-color: rgb(28, 14, 135);
+}
+.footer-items {
+  margin: 0 47.5px;
+  padding: 70px 45px;
+}
+.footer-top {
+  margin-bottom: 30px;
+  display: flex;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer ul li,
+.questions-title {
+  columns: 4;
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+.map {
+  display: flex;
+  margin-left: 900px;
+}
+.social-icons {
+  color: white;
+  cursor: pointer;
+  margin-left: 350px;
+}
+.address {
+  color: white;
+}
