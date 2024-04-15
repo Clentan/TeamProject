@@ -125,39 +125,42 @@ h1 {
 
 /*styling the footer*/
 
-.footer {
+footer {
   background-color: rgb(28, 14, 135);
+  color: white;
 }
-.footer-items {
-  margin: 0 47.5px;
-  padding: 70px 45px;
+.footer-container {
+  display: flex;
+  justify-content: space-around;
 }
-.footer-top {
+.footer-link :hover {
+  color: #00a8cc;
+}
+
+/*styling the for staff page*/
+.main-container-staff {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+}
+/*styling individual cards*/
+.child-staff {
+  /*border: 3px solid #142850;*/
+  color: white;
+  width: 300;
+  height: 463;
+}
+.child-staff p {
+  margin-bottom: 20px;
+}
+.child-staff i {
+  color: #142850;
+  margin: 10px;
+}
+.child-staff dd {
   margin-bottom: 30px;
-  display: flex;
-  cursor: pointer;
 }
-
-.footer ul li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.footer ul li,
-.questions-title {
-  columns: 4;
-  color: antiquewhite;
-  text-decoration: underline;
-}
-
-.map {
-  display: flex;
-  margin-left: 900px;
-}
-.social-icons {
-  color: white;
-  cursor: pointer;
-  margin-left: 350px;
-}
-.address {
-  color: white;
+.staff-pic {
+  margin-bottom: 20px;
+  border-radius: 100%;
 }
